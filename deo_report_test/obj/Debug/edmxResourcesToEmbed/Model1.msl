@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dep_excel_testModelStoreContainer" CdmEntityContainer="dep_excel_testEntities">
+    <EntitySetMapping Name="dep_excel">
+      <EntityTypeMapping TypeName="dep_excel_testModel.dep_excel">
+        <MappingFragment StoreEntitySet="dep_excel">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dasaxeleba" ColumnName="dasaxeleba" />
+          <ScalarProperty Name="qalaqi" ColumnName="qalaqi" />
+          <ScalarProperty Name="raioni" ColumnName="raioni" />
+          <ScalarProperty Name="municipaliteti" ColumnName="municipaliteti" />
+          <ScalarProperty Name="daba" ColumnName="daba" />
+          <ScalarProperty Name="sofeli" ColumnName="sofeli" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
